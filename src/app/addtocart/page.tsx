@@ -49,7 +49,7 @@ interface AddToCartProps {
   variantId: string;
 }
 
-const AddToCart: React.FC<AddToCartProps> = ({ variantId }) => {
+const AddToCart: React.FC<any> = ({ variantId }) => {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [successMsg, setSuccessMsg] = useState("");
